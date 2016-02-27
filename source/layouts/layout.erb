@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" >
+<head>
+
+  <%= partial "head-contents" %>
+
+</head>
+
+<body>
+
+  <table cellpadding="0" cellspacing="0" style="width: 900px; height: 100%">
+    <%= partial "header" %>
+    <tr valign="top">
+      <td valign="top" colspan="2">
+        <a href="/">
+          <img border="0" alt="Cornerstone Church of Aubrey" src="images/CCWebLogo.jpg" width="300" height="365" />
+        </a>
+      </td>
+      <td colspan="5">
+        <%= yield %>
+      </td>
+    </tr>
+    <tr height="100%">
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <%= partial "footer" %>
+  </table>
+
+  <!-- Custom JavaScript -->
+  <%= partial "scripts" %>
+
+</body>
+
+</html>

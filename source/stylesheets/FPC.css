@@ -1,0 +1,65 @@
+﻿body
+{
+	font-size: 12pt;
+	font-family: Arial, Tahoma, Verdana;
+	color: #6a6a6a;
+}
+H1
+{
+	font-size: 24pt;
+	color: indigo;
+	font-family: Arial, Tahoma, Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 18pt;
+	border-bottom: darkgoldenrod thin solid;
+}
+H2
+{
+	font-size: 14pt;
+	color: indigo;
+	font-family: Arial, Tahoma, Verdana;
+	text-decoration: none;
+	font-style: italic;
+	line-height: 6pt;
+}
+H3
+{
+	font-size: 12pt;
+	color: darkgoldenrod;
+	font-family: Arial, Tahoma, Verdana;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 0pt;
+}
+.H2WithSpace
+{
+	font-size: 14pt;
+	color: indigo;
+	font-family: Arial, Tahoma, Verdana;
+	text-decoration: none;
+	font-style: italic;
+}
+.Calendar
+{
+	border-right: indigo thin solid;
+	border-top: indigo thin solid;
+	border-left: indigo thin solid;
+	border-bottom: indigo thin solid;
+}
+.CalendarHead
+{
+	font-weight: bold;
+	color: white;
+	background-color: indigo;
+	text-align: center;
+}
+.CalendarBody
+{
+	border-right: darkgoldenrod thin solid;
+	border-top: darkgoldenrod thin solid;
+	border-left: darkgoldenrod thin solid;
+	border-bottom: darkgoldenrod thin solid;
+	vertical-align: top;
+	text-align: right;
+}
