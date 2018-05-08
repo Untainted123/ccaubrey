@@ -1,6 +1,6 @@
 module CustomHelpers
   def current_project_year
-    "2016"
+    "2018"
   end
 
   def full_title(page_title=nil)
